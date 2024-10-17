@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>4f61d16f-189b-47b7-b18b-b823c1174565</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Axya</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Axya"/>
+  <DisplayName DefaultValue="Axya nightly"/>
   <Description DefaultValue="A template to get started With Axya."/>
   <IconUrl DefaultValue="https://aamirhusnain.github.io/Axya/assets/Axya-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://aamirhusnain.github.io/Axya/assets/Axya-128.png"/>
@@ -80,8 +83,8 @@
           <bt:Url id="Commands.Url" DefaultValue="https://aamirhusnain.github.io/Axya/commands.html"/>
           <bt:Url id="Taskpane.Url" DefaultValue="https://aamirhusnain.github.io/Axya/taskpane.html"/>
         </bt:Urls>
-         <bt:ShortStrings>
-          <bt:String id="GroupLabel" DefaultValue="Axya Add-in"/>
+        <bt:ShortStrings>
+          <bt:String id="GroupLabel" DefaultValue="Axya nightly"/>
           <bt:String id="TaskpaneButton.Label" DefaultValue="Axya"/>
         </bt:ShortStrings>
         <bt:LongStrings>
